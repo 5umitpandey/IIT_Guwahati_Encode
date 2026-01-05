@@ -10,6 +10,9 @@ app.use(cors())
 app.use(express.json())
 
 app.use("/analyze", analyzeRouter)
+app.get("/", (_, res) => {
+  res.send("Food Copilot backend is running")
+})
 app.get("/healthz", (_, res) => res.send("ok"))
 
 
