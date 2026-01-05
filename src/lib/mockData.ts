@@ -1,5 +1,5 @@
 export async function analyzeIngredients(ingredients: string) {
-  const res = await fetch("http://localhost:5000/analyze", {
+  const res = await fetch("https://food-copilot.onrender.com/analyze", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ingredients })
@@ -12,7 +12,7 @@ export async function getFollowUpAnalysis(
   intent: string,
   ingredients: string
 ) {
-  const res = await fetch("http://localhost:5000/analyze", {
+  const res = await fetch("https://food-copilot.onrender.com/analyze", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ingredients, intent })
@@ -25,7 +25,7 @@ export async function askCustomQuestion(
   question: string,
   ingredients: string
 ) {
-  const res = await fetch("http://localhost:5000/analyze", {
+  const res = await fetch("https://food-copilot.onrender.com/analyze", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ ingredients, question })
