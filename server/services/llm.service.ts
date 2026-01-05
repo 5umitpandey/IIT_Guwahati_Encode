@@ -39,10 +39,22 @@ export async function explainWithAI(prompt: string): Promise<string> {
   )
 
   if (!response.ok) {
-    const text = await response.text()
-    throw new Error(text)
-  }
+  const text = await response.text()
+  throw new Error(text)
+}
 
-  const data = await response.json()
-  return data.choices[0].message.content
+const data: unknown = await response.json()
+
+if (
+  typeof data === "object" &&
+  data !== null &&
+  "choices" in data &&
+  Array.isArray((data as any).choices) &&
+  (data as any).choices[0]?.message?.content
+) {
+  return (data as any).choices[0].message.content
+}
+
+throw new Error("Invalid LLM response format")
+
 }
