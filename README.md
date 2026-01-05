@@ -125,6 +125,8 @@ The following screenshots illustrate the complete AI-native user journey — fro
   </tr>
 </table>
 
+![Loader](./Screenshots/Loader.png)
+
 ---
 
 ### 3. Decision Summary & Detected Ingredients
