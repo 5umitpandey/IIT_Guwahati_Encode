@@ -6,6 +6,9 @@ Instead of listing raw data, it acts as an **intelligent co-pilot** that interpr
 
 This project was built for the **AI-Native Consumer Health Experience** challenge.
 
+
+## **Checkout:** [Live Demo](https://food-copilot.netlify.app/)
+
 ---
 
 ##  Problem Context
