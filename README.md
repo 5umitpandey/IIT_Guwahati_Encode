@@ -105,44 +105,66 @@ The system behaves like a **co-pilot**, not a lookup tool.
 
 The following screenshots illustrate the complete AI-native user journey — from uncertainty to clear, actionable understanding.
 
-| Step | Description |
-|-----:|-------------|
-| **1** | Landing experience with intent-first input |
-| **2** | Uploading or pasting a real food label |
-| **3** | AI reasoning and thinking state |
-| **4** | Clear decision summary with highlighted ingredients |
-| **5** | Main concern, trade-offs, and positive notes |
-| **6** | Follow-up questions and adaptive explanations |
-
 ---
 
 ### 1️. Landing Experience
-![Landing Screen](./screenshots/landing.png)
+![Landing Screen](./Screenshots/Landing_Page.png)
 
 ---
 
-### 2️. Ingredient Input (Text or Image)
-![Ingredient Input](./screenshots/input.png)
+### 2️. Ingredient Input (Text & Image)
+
+<table>
+  <tr>
+    <td>
+      <img src="./Screenshots/Text_Input.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+    <td>
+      <img src="./Screenshots/Image_Input.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 3️. AI Reasoning State
-![Thinking State](./screenshots/thinking.png)
-
----
-
-### 4️. Decision Summary & Detected Ingredients
-![Decision Summary](./screenshots/summary.png)
-
----
-
-### 5️. Key Insights (Reasoned Output)
-![Key Insights](./screenshots/insights.png)
+### 3. Decision Summary & Detected Ingredients
+<table>
+  <tr>
+    <th width="50%">Decision Summary (Text)</th>
+    <th width="50%">Decision Summary (Image)</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./Screenshots/Text_Output.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+    <td>
+      <img src="./Screenshots/Image_Output.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 6️. Follow-Up Interaction
-![Follow Up](./screenshots/followup.png)
+![Follow Up](./Screenshots/Followup_Card_Output.png)
+
+---
+
+### 7. Custom Follow-Up Interaction
+<table>
+  <tr>
+    <th width="50%">Custom Follow Up Input</th>
+    <th width="50%">Custom Follow Up Output</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="./Screenshots/Custom_Followup_Input.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+    <td>
+      <img src="./Screenshots/Custom_Followup_Output.png" style="width:650px; height:400px; object-fit:contain;">
+    </td>
+  </tr>
+</table>
 
 
 ## System Architecture
