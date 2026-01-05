@@ -125,8 +125,9 @@ The following screenshots illustrate the complete AI-native user journey — fro
   </tr>
 </table>
 
-Loader
+
 ![Loader](./Screenshots/Loader.png)
+<h3 align="center">Loading Screen</h3>
 
 ---
 
