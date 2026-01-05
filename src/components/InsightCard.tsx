@@ -130,12 +130,17 @@ export function InsightCard({ analysis, isUpdating }: InsightCardProps) {
                 <DecisionIcon confidence={analysis.confidence_level} />
               </div>
             </div>
-            <h2 className="font-display text-xl md:text-2xl text-foreground leading-snug flex-1 pt-1">
-              <span
-  dangerouslySetInnerHTML={{ __html: analysis.decision_summary }}
-/>
 
-            </h2>
+            <h2 className="font-display text-xl md:text-2xl text-foreground leading-snug flex-1 pt-1">
+  <span
+    dangerouslySetInnerHTML={{
+      __html: analysis.decision_summary
+        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+    }}
+  />
+</h2>
+
+
           </div>
         </motion.div>
 
