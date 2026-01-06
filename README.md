@@ -1,3 +1,5 @@
+![Landing Screen](./public/Encode_Wallpaper.png)
+
 # 🥗 Food Copilot  
 **An AI-Native Consumer Health Experience**
 
