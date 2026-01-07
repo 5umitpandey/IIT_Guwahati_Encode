@@ -176,6 +176,16 @@ The following screenshots illustrate the complete AI-native user journey — fro
 </table>
 
 
+---
+
+
+## Demo Video
+
+https://github.com/user-attachments/assets/aebd2929-6760-4791-92c2-6c96a61eff0c
+
+---
+
+
 ## System Architecture
 
 ### Frontend
