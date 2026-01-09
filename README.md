@@ -358,6 +358,9 @@ Food Copilot provides **informational insights only**.
 It does not offer medical advice or replace professional guidance.
 
 
+---
+
+
 <div align="center">
 
 ## 👥 Team
